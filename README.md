@@ -12,7 +12,7 @@ Route: /001
 
 Slide (touch & responsive) using "scroll-snap-type: x mandatory", "scroll-behavior: smooth" and and buttons for change between the slides
 
-![](assets/images/001.png)
+![](./src/assets/images/001.png)
 
 ### 002 - Background with image
 
