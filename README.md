@@ -19,3 +19,5 @@ Slide (touch & responsive) using "scroll-snap-type: x mandatory", "scroll-behavi
 Route: /002
 
 Component responsive using css grid and background image dinamically 
+
+![](./src/assets/images/002.png)
