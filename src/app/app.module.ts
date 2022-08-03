@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SlideSnapSmoothComponent } from './components/slide-snap-smooth/slide-snap-smooth.component';
+import { BackgroundGridDinamicComponent } from './components/background-grid-dinamic/background-grid-dinamic.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SlideSnapSmoothComponent
+    SlideSnapSmoothComponent,
+    BackgroundGridDinamicComponent
   ],
   imports: [
     BrowserModule,
