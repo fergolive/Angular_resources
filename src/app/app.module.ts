@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SlideSnapSmoothComponent } from './components/slide-snap-smooth/slide-snap-smooth.component';
 import { BackgroundGridDinamicComponent } from './components/background-grid-dinamic/background-grid-dinamic.component';
+import { BackgroundFilterComponent } from './components/background-filter/background-filter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SlideSnapSmoothComponent,
-    BackgroundGridDinamicComponent
+    BackgroundGridDinamicComponent,
+    BackgroundFilterComponent
   ],
   imports: [
     BrowserModule,

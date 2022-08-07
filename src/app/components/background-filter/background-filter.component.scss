@@ -1,0 +1,64 @@
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.container{
+    border: 1px solid rgb(255, 1, 166);
+    background-color: cornflowerblue;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    min-height: 100%;
+    box-sizing: border-box;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+.back-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+    z-index: 100;
+    background-position: center center    ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.filter{
+    filter:brightness(50%)
+}
+
+.position-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    z-index: 101;
+}
+
+.grid-columns{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+}
+
+.grid-columns div{
+    border: 1px solid blue;
+}
+
+.grid-columns div:nth-of-type(2)
+{
+    background-color: transparent;
+}
+
+
+
+
