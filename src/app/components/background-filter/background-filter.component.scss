@@ -5,7 +5,7 @@ body,html{
 }
 
 .container{
-    border: 1px solid rgb(255, 1, 166);
+    
     background-color: cornflowerblue;
     position: relative;
     width: 100vw;
@@ -31,15 +31,28 @@ body,html{
 }
 
 .filter{
-    filter:brightness(50%)
+    filter: grayscale(20%) blur(2px) invert(75%);
+
+    //filter: blur(5px);
+    //filter: brightness(0.4);
+    //filter: contrast(200%);
+    //filter: drop-shadow(16px 16px 20px blue);
+    //filter: grayscale(50%);
+    //filter: hue-rotate(90deg);
+    //filter: invert(75%);
+    //filter: opacity(25%);
+    //filter: saturate(30%);
+    //filter: sepia(60%); 
+
+    //https://developer.mozilla.org/es/docs/Web/CSS/filter
 }
 
 .position-2{
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+   
+    border: 1px solid pink;
+    width: 100%;
+    height: 100%;
     background-color: transparent;
     z-index: 101;
 }
@@ -50,14 +63,25 @@ body,html{
     grid-template-columns: 1fr 10fr 1fr;
 }
 
-.grid-columns div{
-    border: 1px solid blue;
-}
+
 
 .grid-columns div:nth-of-type(2)
 {
     background-color: transparent;
 }
+
+.center-content{
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+
+
+
+
+
 
 
 
