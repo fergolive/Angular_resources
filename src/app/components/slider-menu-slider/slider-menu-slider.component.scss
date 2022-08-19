@@ -16,6 +16,8 @@
     scroll-behavior: smooth;
     background-color: rgb(27, 42, 29);
   }
+
+
   .menu-option{
     padding: 5px;
     margin: 5px;
@@ -24,6 +26,7 @@
     scroll-snap-align: center;
     flex: none;
     width: 100px;
+
     border-radius: 5px;
 
 
@@ -36,7 +39,7 @@
     overflow: auto;
     flex: none;
     width: 100%;
-    height: auto;
+  
     flex-flow: row nowrap;
     //scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
@@ -51,6 +54,8 @@
     scroll-snap-align: center;
     flex: none;
     width: 100%;
+ 
+   
  
   }
 
@@ -91,7 +96,7 @@ section:nth-of-type(6){
 .item{
     margin: 5px;
     width: 200px;
-    height: 200px;
+    height: 300px;
     border-radius: 10px;
     
 }
