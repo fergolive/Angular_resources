@@ -4,6 +4,7 @@ import { BackgroundFilterComponent } from './components/background-filter/backgr
 import { BackgroundGridDinamicComponent } from './components/background-grid-dinamic/background-grid-dinamic.component';
 import { SlideSnapSmoothComponent } from './components/slide-snap-smooth/slide-snap-smooth.component';
 import { SliderMenuSliderComponent } from './components/slider-menu-slider/slider-menu-slider.component';
+import { Slider5Component } from './components/slider5/slider5.component';
 
 const routes: Routes = [
   
@@ -11,7 +12,9 @@ const routes: Routes = [
 { path: '001', component: SlideSnapSmoothComponent},
 { path: '002', component: BackgroundGridDinamicComponent},
 { path: '003', component:BackgroundFilterComponent},
-{ path: '004', component:SliderMenuSliderComponent}
+{ path: '004', component:SliderMenuSliderComponent},
+{ path: '005', component:Slider5Component}
+ 
  
 
 ];
