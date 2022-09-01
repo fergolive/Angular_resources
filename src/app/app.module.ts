@@ -8,6 +8,7 @@ import { BackgroundGridDinamicComponent } from './components/background-grid-din
 import { BackgroundFilterComponent } from './components/background-filter/background-filter.component';
 import { Slider5Component } from './components/slider5/slider5.component';
 import { TrackscrollerDirective } from './directives/trackscroller.directive';
+import { Slider6Component } from './components/slider6/slider6.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TrackscrollerDirective } from './directives/trackscroller.directive';
     BackgroundGridDinamicComponent,
     BackgroundFilterComponent,
     Slider5Component,
-    TrackscrollerDirective
+    TrackscrollerDirective,
+    Slider6Component
   ],
   imports: [
     BrowserModule,
