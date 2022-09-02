@@ -33,21 +33,42 @@ export class Slider6Component implements OnInit {
 
 
     let listElems=document.getElementsByClassName('track-scroll')
-
+    console.log(listElems);
+    
     for (let index = 0; index < listElems.length; index++) {
-      listElems[index].addEventListener('scroll', (e:any) => {
-        console.log(e.target.scrollLeft, e.target.scrollTop);
 
-        let sliderBottom=document.getElementById('sliderBottom') as HTMLElement
-    console.log('scroll width:'+sliderBottom.scrollWidth)
-    console.log('scroll  client:'+sliderBottom.clientWidth)
-    });
+        listElems[index].addEventListener('scroll', (e:any) => {
+
+            console.log(e.target.scrollLeft, e.target.scrollTop);
+
+            let sliderBottom=document.getElementById('sliderBottom') as HTMLElement
+            let slide=document.getElementById('aSlide') as HTMLElement
+
+            var position = slide.getBoundingClientRect();
+
+            console.log('scroll width:'+sliderBottom.scrollWidth)
+            console.log('scroll  client:'+sliderBottom.clientWidth)
+            console.log(window.innerWidth);
+            console.log(position.width);
+            
+            if(e.target.scrollLeft+(window.innerWidth)>position.width){
+              console.log('entro el rojo')
+            }
+            
+            /* if(position.left >= 0 && position.right <= window.innerWidth) {
+              console.log('Element is fully visible in screen');
+            } */
+
+           
+          
+         
+           
+      });
       
     }
 
-    let sliderBottom=document.getElementById('sliderBottom') as HTMLElement
-    console.log('scroll width:'+sliderBottom.scrollWidth)
-    console.log('scroll  client:'+sliderBottom.clientHeight)
+
+
   }
 
   register() {
